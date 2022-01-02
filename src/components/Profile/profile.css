@@ -1,0 +1,116 @@
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    margin-left: -300px;
+    color: white;
+    position: relative;
+    margin-bottom: 400px;
+    
+}
+
+.pro_head {
+    text-align: center;
+    margin-left: 250px;
+    margin-top: -50px;
+}
+
+.profile_photo{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: url("../../assets/profile.jpeg");
+    background-size: 100%;
+    transition: 0.2s all ease-in-out;
+    margin-top: 350px;
+    margin-left: -300px;
+    position:absolute;
+    
+}
+
+.profile_photo:hover{
+    transform: scale(1.2);
+    }
+
+
+    .pro_line{
+        margin-top: 20px;
+        margin-left: -110px;
+        
+    }
+
+    .pro_line:before,
+    .pro_line:after {
+        background-color: rgb(255, 255, 255);
+        content: "";
+        display: inline-block;
+        height: 1px;
+        position: relative;
+        vertical-align: middle;
+        width: 50%;
+    }
+    .pro_line:before {
+        right: 0.5em;
+        margin-left: -50%;
+        
+    }
+    .pro_line:after {
+        left: 0.5em;
+        margin-right: -50%;
+    }
+
+    .profile > .pro_content{
+          position: absolute;
+          margin-top: 300px;
+          margin-left: 800px;
+          justify-content: right;
+          padding: 50px;
+          
+    }
+
+    .pro_content> h4{
+        margin-bottom: 30px !important;
+        
+
+    }
+
+    .pro_content> a > button {
+        position:absolute;
+        margin-top: 20px;
+        text-align: left;
+        margin-left: 0px;
+        border: none;
+        border-radius: 2px;
+        outline: none;
+    }
+
+    .topContent_downloadButton {
+        color: white;
+        background-color: #f64c08;
+        font-size: 10px;
+        padding: 10px 30px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 300;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .topContent_downloadButton:hover {
+        color: #f64c08;
+        background-color: white;
+        font-weight: 600;
+      }
+    
+      .pro_content_position{
+        letter-spacing: 1px;
+        text-align: left;
+        padding-left: 3px;
+        padding-top: 20px;
+        font-weight: 800px;
+        margin-left: 180px;
+        margin-top: -39px;
+        color: rgb(255, 136, 0);
+      }
+    
+    

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+
+.header {
+  display: flex;
+  align-items: center;
+  color: white;
+  z-index: 2000;
+  top: 0;
+  position: sticky;
+  background-color: black;
+}
+
+.header_left {
+  flex: 0.3;
+}
+ 
+.header_left > h2 {
+  text-align: center;
+  font-family: "Alata", sans-serif;
+  letter-spacing: 1px;
+  padding: 2px 0;
+  margin-top: 5px;
+}
+
+.header_left > h2 > span {
+  color: #f64c08;
+}
+
+.header_right {
+  display: flex;
+  flex: 0.7;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header_right > a > h4 {
+  /* font-size: 18px; */
+  cursor: pointer;
+  transition: transform 200ms ease-out;
+  padding: 10px 0;
+  letter-spacing: 1px;
+  font-family: "Crimson Text", serif;
+  margin-right: 20px;
+  color: white;
+}
+
+.header_right > h4:hover {
+  text-decoration: none;
+}
+
+.header_right > a > h4:hover {
+  text-decoration: none;
+  /* transform: scale(1.1); */
+  background-color: #f64c08;
+  color: white;
+  padding: 3px 3px;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  /* font-family: "Crimson Text", serif; */
+  /* font-size: 18px; */
+  cursor: pointer;
+}
+
+.header_right--active {
+  border-bottom: 3px solid #f64c08;
+  color: white;
+  padding: 2px 20px !important;
+  border-radius: 2px;
+}
+
+.header_right--semiactive {
+  background-color: #f64c08;
+  color: white;
+  padding: 5px 20px !important;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.header_rightButton{
+  background-color: #f64c08;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 2px;
+  cursor: pointer;
+
+}
+
+@media screen and (max-width: 400px) {
+  
+}

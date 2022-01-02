@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+.topContent {
+    color: white;
+    position: relative;
+  }
+
+  .topContent_container {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+  }
+
+  .topContent_container > h4 {
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 800px;
+    margin-left: 70px;
+    margin-top: -41px;
+    color: rgb(255, 136, 0);
+  }
+
+
+  .topContent_container > h1 {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+
+  
+  .topContent_workButton {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255) !important;
+    background-color: red;
+    font-size: 10px;
+    padding: 9px 45px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  
+  .topContent_workButton:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-weight: 800;
+  }
+
+  

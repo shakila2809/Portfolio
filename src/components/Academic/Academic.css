@@ -1,0 +1,56 @@
+.Academic_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 100px;
+  
+}
+
+.Academic_container > .Academic_head{
+    
+    color: white;
+    font-family: "Domine", sans-serif;
+    border-bottom: 3px solid white;
+    border:100%;
+    margin-left: 460px;
+    margin-bottom: 100px;
+}
+
+.Academic_container > .Academic_content1{
+    color: white;
+    font-family: "Domine", sans-serif;
+    margin-top: 100px;
+    margin-left: -400px;
+}
+.Academic_container > .Academic_content1> .fa{
+    position:absolute;
+    margin-left: -40px;
+    margin-top: 3px;
+    color: white;
+
+}
+.Academic_container > .Academic_content1> .align_item{
+    margin-top: -45px;
+    margin-left: 700px;
+}
+
+.Academic_container > .Academic_content2{
+    color: white;
+    font-family: "Domine", sans-serif;
+    margin-top: 260px;
+    margin-left: -795px;
+  
+}
+.Academic_container > .Academic_content2> .fa{
+    position:absolute;
+    margin-left: -40px;
+    margin-top: 3px;
+    color: white;
+
+}
+.Academic_container > .Academic_content2> .align_item{
+    margin-top: -45px;
+    margin-left: 700px;
+}
